@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gitee.com/architectzy/LanguageAdvisor/data/schema/scene.schema.json",
+  "title": "Scene",
+  "description": "场景 schema(预留)— 对应项目开发计划 §4.3 scenes 表;Phase 0 Task 4 建场景库时启用。",
+  "type": "object",
+  "required": ["name", "language"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "数据库主键,留空时由入库脚本自动分配"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "场景名,中文(如\"机场过境\"、\"酒店入住\")"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "ja", "fr", "es", "de", "ko", "ru", "it", "pt", "ar"],
+      "description": "ISO 639-1 短码"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["travel", "business", "dining", "medical", "shopping", "social", "emergency", "education", "daily"],
+      "description": "场景大类"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 2
+    },
+    "description": {
+      "type": "string",
+      "description": "场景简介:典型情境、适用人群、目标产出"
+    },
+    "key_phrases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["phrase", "translation_cn"],
+        "properties": {
+          "phrase": { "type": "string" },
+          "translation_cn": { "type": "string" },
+          "pronunciation": { "type": "string" },
+          "note": { "type": "string", "description": "用法说明或文化提醒" }
+        }
+      },
+      "description": "关键短语列表(短句级,非单词)"
+    },
+    "dialog_template": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "text"],
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": ["user", "ai", "narrator", "other"],
+            "description": "user=学习者,ai=对话对方(空乘/客户等),narrator=旁白"
+          },
+          "text": { "type": "string", "description": "原句" },
+          "translation_cn": { "type": "string" },
+          "audio": { "type": "string", "description": "可选,音频相对路径" }
+        }
+      },
+      "description": "完整对话模板,可跟读/角色扮演"
+    },
+    "variants": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "变体练习题,如改写/填空/中译英"
+    },
+    "culture_notes": {
+      "type": "string",
+      "description": "文化背景:礼仪/禁忌/俚语,自由文本(markdown)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

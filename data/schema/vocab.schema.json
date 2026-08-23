@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gitee.com/architectzy/LanguageAdvisor/data/schema/vocab.schema.json",
+  "title": "Vocab",
+  "description": "词条统一 schema — 对应项目开发计划 §4.3 vocab 表字段;csv_to_json.py 产物按此校验。",
+  "type": "object",
+  "required": ["word", "language"],
+  "additionalProperties": false,
+  "properties": {
+    "word": {
+      "type": "string",
+      "minLength": 1,
+      "description": "词条原形(英语取 lemma,日语取汉字/假名)"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "ja", "fr", "es", "de", "ko", "ru", "it", "pt", "ar"],
+      "description": "ISO 639-1 短码;后续按此值入语种分表"
+    },
+    "pos": {
+      "type": "string",
+      "description": "词性,n/v/adj/adv/pron/prep/conj/num/aux/int 等"
+    },
+    "pronunciation": {
+      "type": "string",
+      "description": "发音:英/IPA(/əˈbændən/)、日/罗马字、汉字假名注音等"
+    },
+    "meaning_cn": {
+      "type": "string",
+      "description": "中文释义,允许多义以 `,` / `、` 分隔"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 1,
+      "description": "难度 1-5,1=入门,5=C1+;CEFR 粗略映射:A1=1, A2=2, B1=3, B2=4, C1+=5"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "标签:考试(高考/四级/六级/雅思/托福/JLPT N1) / 场景(旅行/商务/医疗) / 词性补充等"
+    },
+    "root_id": {
+      "type": ["integer", "null"],
+      "description": "关联词根库 roots.id,允许 null"
+    },
+    "root": {
+      "type": ["string", "null"],
+      "description": "冗余字段,直接存词根字符串(便于无 join 查询),与 root_id 二选一"
+    },
+    "examples": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "例句原文(可与 meaning_cn 一一对应)"
+    }
+  }
+}

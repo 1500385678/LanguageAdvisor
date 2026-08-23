@@ -1,5 +1,4 @@
 # LanguageAdvisor
-<<<<<<< HEAD
 
 > 13-语言-Language 行业 Web 项目 · 内部代号 LanguageAdvisor
 
@@ -13,6 +12,62 @@
 ## 自动化
 - T4 每日 02:00 检查项目并更新开发计划
 - T5 每日 03:00 完成小步开发并 commit + push
-=======
-LanguageAdvisor - 13-语言-Language 行业 Web 项目
->>>>>>> github/main
+
+## 目录结构
+
+```
+LanguageWeb/
+├── README.md                  # 本文件
+├── 项目开发计划.md              # 大计划(v1.0,Phase 0-4)
+├── scripts/                   # 数据解析与转换脚本(纯 stdlib)
+│   ├── md_to_json.py          # 语法 markdown → JSON(按 ##/### 切分)
+│   └── csv_to_json.py         # 词表 CSV → JSON(归一化到 vocab schema)
+├── data/
+│   └── schema/                # JSON Schema 定义(数据入库前必校验)
+│       ├── vocab.schema.json  # 词条 schema(对应 §4.3 vocab 表)
+│       └── scene.schema.json  # 场景 schema(预留,场景库任务时启用)
+├── 词表/                       # 英/日/法/西 主流词表 CSV(待建)
+├── 语法/                       # 10 种语言核心语法 markdown(待建)
+├── 场景语料/                   # 20+ 场景对话 JSON(待建)
+└── 翻译规则/                   # 中英/中日思维差异(待建)
+```
+
+## scripts/ 使用说明
+
+两个解析器均**纯 stdlib**(argparse / json / csv / re),不引入第三方依赖。
+
+### md_to_json.py
+
+将 `语法/*.md` 按章节切分为 JSON,产出结构:
+
+```json
+{ "language": "英语", "sections": [ { "name": "动词时态", "points": [ { "name": "现在完成时", "content": "..." } ] } ] }
+```
+
+```bash
+# 用法
+python3 scripts/md_to_json.py --input 语法/英语.md --output data/json/英语语法.json --pretty
+```
+
+### csv_to_json.py
+
+将 `词表/*.csv` 解析为 vocab schema 兼容的 JSON 数组。约定列名(大小写/下划线无关):
+
+> `word, pos, pronunciation, meaning_cn, difficulty, tags`
+> 可选:`language`(若 CSV 无此列,可用 `--language en` 兜底)、`examples`、`root_id`、`root`
+
+- `difficulty` 自动取首个数字,钳制到 1-5
+- `tags` 支持 `|` / `,` / `,` / `;` / `；` 多分隔符
+- `examples` 支持 JSON 数组或纯文本(纯文本将打包为单元素数组)
+
+```bash
+# 用法
+python3 scripts/csv_to_json.py --input 词表/英语_5000.csv --output data/json/英语词表.json --language en --pretty
+```
+
+### 入库前校验
+
+```bash
+# 用 jsonschema CLI 校验(可选,需 pip install jsonschema)
+python3 -m jsonschema -i data/json/英语词表.json data/schema/vocab.schema.json
+```
