@@ -22,12 +22,15 @@ LanguageWeb/
 ├── Inspiration/               # AI 写的技术架构/方案备查档案(给 AI 读,不入 Defense)
 ├── scripts/                   # 数据解析与转换脚本(纯 stdlib)
 │   ├── md_to_json.py          # 语法 markdown → JSON(按 ##/### 切分)
-│   └── csv_to_json.py         # 词表 CSV → JSON(归一化到 vocab schema)
+│   ├── csv_to_json.py         # 词表 CSV → JSON(归一化到 vocab schema)
+│   └── root_md_to_json.py     # 词根 markdown → root schema JSON 数组(8/28 入库)
 ├── data/
 │   └── schema/                # JSON Schema 定义(数据入库前必校验)
 │       ├── vocab.schema.json  # 词条 schema(对应 §4.3 vocab 表)
-│       └── scene.schema.json  # 场景 schema(预留,场景库任务时启用)
-├── 词表/                       # 英/日/法/西 主流词表 CSV(待建)
+│       ├── scene.schema.json  # 场景 schema(预留,场景库任务时启用)
+│       └── root.schema.json   # 词根 schema(对应 §4.3 roots 表,8/28 入库)
+├── 词表/                       # 英/日/法/西 主流词表 CSV(W1 已建英语_高频样章 2742 词)
+├── 词根/                       # 拉丁/希腊/日耳曼 词根 markdown(W1 已建英语_词根样章 49 词根)
 ├── 语法/                       # 10 种语言核心语法 markdown(待建)
 ├── 场景语料/                   # 20+ 场景对话 JSON(待建)
 └── 翻译规则/                   # 中英/中日思维差异(待建)
@@ -80,4 +83,54 @@ python3 scripts/csv_to_json.py --input 词表/英语_5000.csv --output data/json
 ```bash
 # 用 jsonschema CLI 校验(可选,需 pip install jsonschema)
 python3 -m jsonschema -i data/json/英语词表.json data/schema/vocab.schema.json
+python3 -m jsonschema -i data/json/英语_词根样章.json data/schema/root.schema.json
+```
+
+### root_md_to_json.py
+
+将 `词根/*.md` 按词族(##) / 词根(###) 切分,解析每条词根的 `- 词源:` `- 本义:` `- 派生:` `- 例句:` `- 标签:` 等结构化字段,拍平为 root schema 兼容的 JSON 数组。
+
+约定 markdown 结构:
+
+```markdown
+# 英语 词根词缀 样章
+## 看 · 词族
+### vid
+- 词源: 拉丁 videre
+- 本义: 看
+- 难度: 2 (A2-B1)
+- 派生: evident(adj 明显的, ex-外 + vid → 看得见的), video(n 视频, 直接保留)
+- 例句: The evidence is evident from the video. / I need to revise my plan.
+- 标签: 词族-看, 高考, 四级, 雅思
+```
+
+```bash
+# 用法
+python3 scripts/root_md_to_json.py \
+  --input 词根/英语_词根样章.md \
+  --output data/json/英语_词根样章.json \
+  --language-la=la --pretty
+```
+
+输出 JSON 结构:
+
+```json
+{
+  "language": "英语",
+  "section_count": 3,
+  "root_count": 49,
+  "roots": [
+    {
+      "root": "vid",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "看",
+      "difficulty": 2,
+      "derivatives": [{"word": "evident", "pos": "adj", "meaning_cn": "明显的", "affix": "ex-+vid"}],
+      "examples": ["The evidence is evident from the video."],
+      "tags": ["词族-看", "高考", "四级", "雅思"],
+      "section": "看"
+    }
+  ]
+}
 ```

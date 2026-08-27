@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gitee.com/architectzy/LanguageAdvisor/data/schema/root.schema.json",
+  "title": "Root",
+  "description": "词根统一 schema — 对应项目开发计划 §4.3 roots 表字段;root_md_to_json.py 产物按此校验。单条词根对象。",
+  "type": "object",
+  "required": ["root", "language", "origin", "meaning"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "数据库主键,留空时由入库脚本自动分配"
+    },
+    "root": {
+      "type": "string",
+      "minLength": 1,
+      "description": "词根本体(如 spect/duc/fer),按出现形态保留"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "ja", "fr", "es", "de", "ko", "ru", "it", "pt", "ar", "la", "grc"],
+      "description": "词根所属源语:la=拉丁 grc=古希腊,en 等为现代语种"
+    },
+    "origin": {
+      "type": "string",
+      "enum": ["latin", "greek", "germanic", "french", "sanskrit", "native", "mixed"],
+      "description": "语源:latin/greek/germanic/french 等"
+    },
+    "source_text": {
+      "type": "string",
+      "description": "词源原文(如 '拉丁 videre' / '古英语 seon(日耳曼语族)'),保留详细描述,与 origin 配合使用"
+    },
+    "meaning": {
+      "type": "string",
+      "minLength": 1,
+      "description": "词根本义中文(如 看/引导/携带)"
+    },
+    "meaning_en": {
+      "type": "string",
+      "description": "词根本义英文(可选,便于跨语言查询)"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 3,
+      "description": "学习难度 1-5,1=A1 入门(常见词根如 see/look),5=C1+(生僻)"
+    },
+    "derivatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["word"],
+        "properties": {
+          "word": { "type": "string", "description": "派生词(lemma 形式)" },
+          "pos": { "type": "string", "description": "派生词词性 n/v/adj/..." },
+          "meaning_cn": { "type": "string", "description": "派生词中文释义" },
+          "affix": { "type": "string", "description": "前/后缀组合方式:in-/out-/re-/con-/-tion/-able 等" }
+        }
+      },
+      "description": "派生词列表,每个含 word+pos+meaning_cn,affix 可选标注前后缀"
+    },
+    "examples": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "典型例句,展示词根在实际语境中的用法"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "标签:词族(动词族/名词族/形容词族)、考试(高考/四级/六级/雅思/托福/GRE)、应用场景"
+    },
+    "section": {
+      "type": "string",
+      "description": "所属词族大类(看/说/走/... ),与 §五 Phase 0 词族分类一致"
+    }
+  }
+}
