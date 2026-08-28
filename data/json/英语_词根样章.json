@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
-  "section_count": 3,
-  "root_count": 49,
+  "section_count": 4,
+  "root_count": 56,
   "roots": [
     {
       "root": "vid",
@@ -2967,6 +2967,526 @@
       ],
       "section": "走",
       "source_text": "拉丁 passus / 古法语 passer"
+    },
+    {
+      "root": "scrib",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "写",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "describe",
+          "pos": "v",
+          "meaning_cn": "描述",
+          "affix": "de-下 + scrib + e → 写下来"
+        },
+        {
+          "word": "description",
+          "pos": "n",
+          "meaning_cn": "描述",
+          "affix": "-tion 名词"
+        },
+        {
+          "word": "subscribe",
+          "pos": "v",
+          "meaning_cn": "订阅/签署",
+          "affix": "sub-下 → 在下面签名"
+        },
+        {
+          "word": "subscription",
+          "pos": "n",
+          "meaning_cn": "订阅",
+          "affix": "-tion 名词"
+        },
+        {
+          "word": "prescribe",
+          "pos": "v",
+          "meaning_cn": "开处方/规定",
+          "affix": "pre-前 → 预先写"
+        },
+        {
+          "word": "prescription",
+          "pos": "n",
+          "meaning_cn": "处方",
+          "affix": "-tion 名词"
+        },
+        {
+          "word": "manuscript",
+          "pos": "n",
+          "meaning_cn": "手稿, manu-手 + script",
+          "affix": ""
+        },
+        {
+          "word": "ascribe",
+          "pos": "v",
+          "meaning_cn": "归因于",
+          "affix": "a-向 → 把...写上去"
+        },
+        {
+          "word": "inscribe",
+          "pos": "v",
+          "meaning_cn": "铭刻",
+          "affix": "in-入"
+        }
+      ],
+      "examples": [
+        "Please describe the scene",
+        "Subscribe to the newsletter"
+      ],
+      "tags": [
+        "词族-写",
+        "高考",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "写",
+      "source_text": "拉丁 scribere"
+    },
+    {
+      "root": "script",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "写",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "script",
+          "pos": "n",
+          "meaning_cn": "脚本/手写体",
+          "affix": ""
+        },
+        {
+          "word": "scripture",
+          "pos": "n",
+          "meaning_cn": "经文",
+          "affix": "-ure 名词"
+        },
+        {
+          "word": "manuscript",
+          "pos": "n",
+          "meaning_cn": "手稿, manu-手",
+          "affix": ""
+        },
+        {
+          "word": "postscript",
+          "pos": "n",
+          "meaning_cn": "附言",
+          "affix": "post-后 → 写在后面"
+        },
+        {
+          "word": "transcript",
+          "pos": "n",
+          "meaning_cn": "抄本",
+          "affix": "trans-转 → 抄写过来"
+        },
+        {
+          "word": "scripture",
+          "pos": "n",
+          "meaning_cn": "圣经/手稿",
+          "affix": ""
+        },
+        {
+          "word": "scripture",
+          "pos": "n",
+          "meaning_cn": "经文",
+          "affix": ""
+        },
+        {
+          "word": "scriptwriter",
+          "pos": "n",
+          "meaning_cn": "编剧, writer 作者",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Read the script",
+        "See the postscript"
+      ],
+      "tags": [
+        "词族-写",
+        "高考",
+        "四级",
+        "雅思"
+      ],
+      "section": "写",
+      "source_text": "拉丁 scriptum(scribere 过去分词)"
+    },
+    {
+      "root": "graph",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "写 / 画",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "graph",
+          "pos": "n",
+          "meaning_cn": "图表",
+          "affix": "- 图所画"
+        },
+        {
+          "word": "graphic",
+          "pos": "adj",
+          "meaning_cn": "图像的",
+          "affix": "-ic 形容词"
+        },
+        {
+          "word": "graphite",
+          "pos": "n",
+          "meaning_cn": "石墨",
+          "affix": "-ite 名词 → 写字用"
+        },
+        {
+          "word": "photograph",
+          "pos": "n",
+          "meaning_cn": "照片",
+          "affix": "photo-光 → 用光画出来"
+        },
+        {
+          "word": "autograph",
+          "pos": "n",
+          "meaning_cn": "亲笔签名",
+          "affix": "auto-自己"
+        },
+        {
+          "word": "biography",
+          "pos": "n",
+          "meaning_cn": "传记",
+          "affix": "bio-生命 → 写一生的故事"
+        },
+        {
+          "word": "bibliography",
+          "pos": "n",
+          "meaning_cn": "书目, biblio-书",
+          "affix": ""
+        },
+        {
+          "word": "paragraph",
+          "pos": "n",
+          "meaning_cn": "段落",
+          "affix": "para-旁 → 写在旁边的批注"
+        },
+        {
+          "word": "calligraphy",
+          "pos": "n",
+          "meaning_cn": "书法",
+          "affix": "calli-美 → 写得美"
+        },
+        {
+          "word": "geography",
+          "pos": "n",
+          "meaning_cn": "地理",
+          "affix": "geo-地 → 写地的"
+        },
+        {
+          "word": "graphite",
+          "pos": "n",
+          "meaning_cn": "石墨",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Draw a graph",
+        "Read the paragraph"
+      ],
+      "tags": [
+        "词族-写",
+        "高考",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "写",
+      "source_text": "希腊 γράφειν(graphein)"
+    },
+    {
+      "root": "gram",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "写 / 字",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "grammar",
+          "pos": "n",
+          "meaning_cn": "语法",
+          "affix": "-ar 名词 → 写字的规则"
+        },
+        {
+          "word": "grammatical",
+          "pos": "adj",
+          "meaning_cn": "语法的",
+          "affix": "-ical 形容词"
+        },
+        {
+          "word": "program",
+          "pos": "n",
+          "meaning_cn": "程序",
+          "affix": "pro-前 → 预先写好"
+        },
+        {
+          "word": "programme",
+          "pos": "n",
+          "meaning_cn": "节目单, 英式拼写",
+          "affix": ""
+        },
+        {
+          "word": "telegram",
+          "pos": "n",
+          "meaning_cn": "电报",
+          "affix": "tele-远 → 远处传来的字"
+        },
+        {
+          "word": "diagram",
+          "pos": "n",
+          "meaning_cn": "图表",
+          "affix": "dia-穿过 → 画出来看"
+        },
+        {
+          "word": "epigram",
+          "pos": "n",
+          "meaning_cn": "警句",
+          "affix": "epi-上 → 写在上方"
+        },
+        {
+          "word": "grammar",
+          "pos": "n",
+          "meaning_cn": "语法",
+          "affix": ""
+        },
+        {
+          "word": "monogram",
+          "pos": "n",
+          "meaning_cn": "字母组合",
+          "affix": "mono-单"
+        }
+      ],
+      "examples": [
+        "Study grammar",
+        "Send a telegram"
+      ],
+      "tags": [
+        "词族-写",
+        "高考",
+        "四级",
+        "雅思"
+      ],
+      "section": "写",
+      "source_text": "希腊 γράμμα(gramma,字/字母)"
+    },
+    {
+      "root": "type",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "写 / 印",
+      "meaning_en": "",
+      "difficulty": 2,
+      "derivatives": [
+        {
+          "word": "type",
+          "pos": "n",
+          "meaning_cn": "类型/v 打字",
+          "affix": ""
+        },
+        {
+          "word": "typewriter",
+          "pos": "n",
+          "meaning_cn": "打字机",
+          "affix": "-er 工具"
+        },
+        {
+          "word": "typical",
+          "pos": "adj",
+          "meaning_cn": "典型的",
+          "affix": "-ical 形容词"
+        },
+        {
+          "word": "typography",
+          "pos": "n",
+          "meaning_cn": "排版",
+          "affix": "-graphy 写法"
+        },
+        {
+          "word": "prototype",
+          "pos": "n",
+          "meaning_cn": "原型, proto-原始",
+          "affix": ""
+        },
+        {
+          "word": "stereotype",
+          "pos": "n",
+          "meaning_cn": "刻板印象",
+          "affix": "stereo-立体 → 固定的模子"
+        },
+        {
+          "word": "archetype",
+          "pos": "n",
+          "meaning_cn": "原型, arche-最初",
+          "affix": ""
+        },
+        {
+          "word": "typist",
+          "pos": "n",
+          "meaning_cn": "打字员",
+          "affix": "-ist 人"
+        },
+        {
+          "word": "typecast",
+          "pos": "v",
+          "meaning_cn": "定型, cast 抛",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Type a letter",
+        "A typical example"
+      ],
+      "tags": [
+        "词族-写",
+        "高考",
+        "四级"
+      ],
+      "section": "写",
+      "source_text": "希腊 τύπος(typos, 模/印)"
+    },
+    {
+      "root": "print",
+      "language": "la",
+      "origin": "french",
+      "meaning": "印 / 写",
+      "meaning_en": "",
+      "difficulty": 2,
+      "derivatives": [
+        {
+          "word": "print",
+          "pos": "",
+          "meaning_cn": "v/n 印刷/印刷品",
+          "affix": ""
+        },
+        {
+          "word": "printer",
+          "pos": "n",
+          "meaning_cn": "打印机",
+          "affix": "-er 工具"
+        },
+        {
+          "word": "printing",
+          "pos": "n",
+          "meaning_cn": "印刷",
+          "affix": "-ing 名词"
+        },
+        {
+          "word": "footprint",
+          "pos": "n",
+          "meaning_cn": "足迹, foot 脚",
+          "affix": ""
+        },
+        {
+          "word": "fingerprint",
+          "pos": "n",
+          "meaning_cn": "指纹, finger 手指",
+          "affix": ""
+        },
+        {
+          "word": "imprint",
+          "pos": "",
+          "meaning_cn": "n/v 印记, im-入",
+          "affix": ""
+        },
+        {
+          "word": "newsprint",
+          "pos": "n",
+          "meaning_cn": "新闻纸, news 新闻",
+          "affix": ""
+        },
+        {
+          "word": "blueprint",
+          "pos": "n",
+          "meaning_cn": "蓝图, blue 蓝",
+          "affix": ""
+        },
+        {
+          "word": "misprint",
+          "pos": "n",
+          "meaning_cn": "印刷错误",
+          "affix": "mis-错"
+        },
+        {
+          "word": "reprint",
+          "pos": "v",
+          "meaning_cn": "再版",
+          "affix": "re-再"
+        }
+      ],
+      "examples": [
+        "Print the document",
+        "Check the fingerprint"
+      ],
+      "tags": [
+        "词族-写",
+        "高考",
+        "四级"
+      ],
+      "section": "写",
+      "source_text": "古法语 preinte(preindre 压印)"
+    },
+    {
+      "root": "lexic",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "词 / 字(写下来的)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "lexicon",
+          "pos": "n",
+          "meaning_cn": "词典",
+          "affix": "-on 名词"
+        },
+        {
+          "word": "lexical",
+          "pos": "adj",
+          "meaning_cn": "词汇的",
+          "affix": "-al 形容词"
+        },
+        {
+          "word": "lexicography",
+          "pos": "n",
+          "meaning_cn": "词典编纂",
+          "affix": "-graphy 写 → 写词典"
+        },
+        {
+          "word": "lexicographer",
+          "pos": "n",
+          "meaning_cn": "词典编纂者",
+          "affix": "-er 人"
+        },
+        {
+          "word": "lex",
+          "pos": "",
+          "meaning_cn": "拉丁法 律",
+          "affix": "词根同源 → 写在法典中的字"
+        }
+      ],
+      "examples": [
+        "Consult a lexicon",
+        "Lexical choices matter"
+      ],
+      "tags": [
+        "词族-写",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "写",
+      "source_text": "希腊 λεξικόν(lexikon, 字典 → 收字的书)"
     }
   ]
 }
