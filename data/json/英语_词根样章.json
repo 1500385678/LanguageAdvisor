@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
-  "section_count": 4,
-  "root_count": 56,
+  "section_count": 5,
+  "root_count": 62,
   "roots": [
     {
       "root": "vid",
@@ -3487,6 +3487,328 @@
       ],
       "section": "写",
       "source_text": "希腊 λεξικόν(lexikon, 字典 → 收字的书)"
+    },
+    {
+      "root": "audi",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "听",
+      "meaning_en": "",
+      "difficulty": 2,
+      "derivatives": [
+        {
+          "word": "audio",
+          "pos": "n",
+          "meaning_cn": "音频, 直接保留",
+          "affix": ""
+        },
+        {
+          "word": "audible",
+          "pos": "adj",
+          "meaning_cn": "听得见的",
+          "affix": "-ible 形容词"
+        },
+        {
+          "word": "audience",
+          "pos": "n",
+          "meaning_cn": "听众",
+          "affix": "-ence 名词 → 听的人"
+        },
+        {
+          "word": "audit",
+          "pos": "",
+          "meaning_cn": "n/v 审计/旁听",
+          "affix": "-it 走"
+        },
+        {
+          "word": "audition",
+          "pos": "n",
+          "meaning_cn": "试音",
+          "affix": "-ition 名词"
+        },
+        {
+          "word": "auditorium",
+          "pos": "n",
+          "meaning_cn": "礼堂",
+          "affix": "-orium 场所"
+        },
+        {
+          "word": "auditory",
+          "pos": "adj",
+          "meaning_cn": "听觉的",
+          "affix": "-ory 形容词"
+        }
+      ],
+      "examples": [
+        "The audio is clear",
+        "The audience applauded"
+      ],
+      "tags": [
+        "词族-听",
+        "高考",
+        "四级",
+        "雅思"
+      ],
+      "section": "听",
+      "source_text": "拉丁 audire"
+    },
+    {
+      "root": "audit",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "听",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "audit",
+          "pos": "",
+          "meaning_cn": "v/n 审计",
+          "affix": "旁听 → 听账"
+        },
+        {
+          "word": "auditor",
+          "pos": "n",
+          "meaning_cn": "审计员/旁听者",
+          "affix": "-or 人"
+        },
+        {
+          "word": "audition",
+          "pos": "n",
+          "meaning_cn": "试镜",
+          "affix": "-ition 名词"
+        },
+        {
+          "word": "auditory",
+          "pos": "adj",
+          "meaning_cn": "听觉的",
+          "affix": "-ory 形容词"
+        },
+        {
+          "word": "auditorium",
+          "pos": "n",
+          "meaning_cn": "礼堂",
+          "affix": "-orium 场所"
+        },
+        {
+          "word": "audibility",
+          "pos": "n",
+          "meaning_cn": "可听度",
+          "affix": "-ibility 名词"
+        }
+      ],
+      "examples": [
+        "Audit the accounts",
+        "The auditorium is full"
+      ],
+      "tags": [
+        "词族-听",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "听",
+      "source_text": "拉丁 audire 变形"
+    },
+    {
+      "root": "aur",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "耳 / 听",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "aurora",
+          "pos": "n",
+          "meaning_cn": "极光",
+          "affix": "-ora 名词 → 黎明的耳/光"
+        },
+        {
+          "word": "aural",
+          "pos": "adj",
+          "meaning_cn": "听觉的",
+          "affix": "-al 形容词"
+        },
+        {
+          "word": "aureate",
+          "pos": "adj",
+          "meaning_cn": "金色的",
+          "affix": "-ate 形容词"
+        },
+        {
+          "word": "auricle",
+          "pos": "n",
+          "meaning_cn": "心耳/外耳",
+          "affix": "-icle 小"
+        },
+        {
+          "word": "auricular",
+          "pos": "adj",
+          "meaning_cn": "耳的",
+          "affix": "-icular 形容词"
+        },
+        {
+          "word": "auscultation",
+          "pos": "n",
+          "meaning_cn": "听诊, auscult-听",
+          "affix": "-ation 名词 → 医生听"
+        }
+      ],
+      "examples": [
+        "Aural training",
+        "The aurora borealis"
+      ],
+      "tags": [
+        "词族-听",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "听",
+      "source_text": "拉丁 auris(耳)"
+    },
+    {
+      "root": "acou",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "听",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "acoustic",
+          "pos": "adj",
+          "meaning_cn": "声学的",
+          "affix": "-ic 形容词"
+        },
+        {
+          "word": "acoustics",
+          "pos": "n",
+          "meaning_cn": "声学",
+          "affix": "-ics 学问"
+        },
+        {
+          "word": "acoustical",
+          "pos": "adj",
+          "meaning_cn": "声学的",
+          "affix": "-ical 形容词"
+        },
+        {
+          "word": "acoustically",
+          "pos": "adv",
+          "meaning_cn": "声学上",
+          "affix": "-ly 副词"
+        }
+      ],
+      "examples": [
+        "Acoustic guitar",
+        "The acoustics are good"
+      ],
+      "tags": [
+        "词族-听",
+        "雅思",
+        "托福"
+      ],
+      "section": "听",
+      "source_text": "希腊 ἀκούειν(akouein)"
+    },
+    {
+      "root": "hear",
+      "language": "la",
+      "origin": "germanic",
+      "meaning": "听",
+      "meaning_en": "",
+      "difficulty": 1,
+      "derivatives": [
+        {
+          "word": "hear",
+          "pos": "v",
+          "meaning_cn": "听见",
+          "affix": ""
+        },
+        {
+          "word": "hearing",
+          "pos": "n",
+          "meaning_cn": "听力/听",
+          "affix": "-ing 名词"
+        },
+        {
+          "word": "hearsay",
+          "pos": "n",
+          "meaning_cn": "传闻, say 说",
+          "affix": ""
+        },
+        {
+          "word": "hearer",
+          "pos": "n",
+          "meaning_cn": "听者",
+          "affix": "-er 人"
+        },
+        {
+          "word": "overhear",
+          "pos": "v",
+          "meaning_cn": "无意听到",
+          "affix": "over-越过"
+        }
+      ],
+      "examples": [
+        "I hear you",
+        "It's just hearsay"
+      ],
+      "tags": [
+        "词族-听",
+        "高考",
+        "四级",
+        "雅思"
+      ],
+      "section": "听",
+      "source_text": "古英语 hieran(日耳曼语族)"
+    },
+    {
+      "root": "listen",
+      "language": "la",
+      "origin": "germanic",
+      "meaning": "听(专注)",
+      "meaning_en": "",
+      "difficulty": 1,
+      "derivatives": [
+        {
+          "word": "listen",
+          "pos": "v",
+          "meaning_cn": "听, 专注地听",
+          "affix": ""
+        },
+        {
+          "word": "listener",
+          "pos": "n",
+          "meaning_cn": "听众",
+          "affix": "-er 人"
+        },
+        {
+          "word": "listening",
+          "pos": "n",
+          "meaning_cn": "听力练习",
+          "affix": "-ing 名词"
+        },
+        {
+          "word": "listenable",
+          "pos": "adj",
+          "meaning_cn": "值得听的",
+          "affix": "-able 形容词"
+        }
+      ],
+      "examples": [
+        "Listen carefully",
+        "A good listener"
+      ],
+      "tags": [
+        "词族-听",
+        "高考",
+        "四级"
+      ],
+      "section": "听",
+      "source_text": "古英语 hlysnan(日耳曼语族)"
     }
   ]
 }
