@@ -23,16 +23,17 @@ LanguageWeb/
 ├── scripts/                   # 数据解析与转换脚本(纯 stdlib)
 │   ├── md_to_json.py          # 语法 markdown → JSON(按 ##/### 切分)
 │   ├── csv_to_json.py         # 词表 CSV → JSON(归一化到 vocab schema)
-│   └── root_md_to_json.py     # 词根 markdown → root schema JSON 数组(8/28 入库)
+│   ├── root_md_to_json.py     # 词根 markdown → root schema JSON 数组(8/28 入库)
+│   └── scene_validate.py      # 场景 JSON → scene schema 校验(9/1 入库,打破 7 日挂账)
 ├── data/
 │   └── schema/                # JSON Schema 定义(数据入库前必校验)
 │       ├── vocab.schema.json  # 词条 schema(对应 §4.3 vocab 表)
-│       ├── scene.schema.json  # 场景 schema(预留,场景库任务时启用)
+│       ├── scene.schema.json  # 场景 schema(9/1 启用,scene_validate.py 跑通)
 │       └── root.schema.json   # 词根 schema(对应 §4.3 roots 表,8/28 入库)
 ├── 词表/                       # 英/日/法/西 主流词表 CSV(W1 已建英语_高频样章 2742 词)
 ├── 词根/                       # 拉丁/希腊/日耳曼 词根 markdown(W1 已建英语_词根样章 62 词根,5 词族:看/说/走/写/听)
 ├── 语法/                       # 10 种语言核心语法 markdown(待建)
-├── 场景语料/                   # 20+ 场景对话 JSON(待建)
+├── 场景语料/                   # 场景对话 JSON(W2 20260901 已建 英语_机场过境 1 个起步,启用 scene schema 校验链,目标 20+ 剩 19)
 └── 翻译规则/                   # 中英/中日思维差异(待建)
 ```
 
@@ -84,6 +85,36 @@ python3 scripts/csv_to_json.py --input 词表/英语_5000.csv --output data/json
 # 用 jsonschema CLI 校验(可选,需 pip install jsonschema)
 python3 -m jsonschema -i data/json/英语词表.json data/schema/vocab.schema.json
 python3 -m jsonschema -i data/json/英语_词根样章.json data/schema/root.schema.json
+```
+
+### scene_validate.py(9/1 入库)
+
+将 `场景语料/*.json` 校验为 scene schema 兼容(单 object 或 array 均支持)。依赖 `jsonschema` 包(已装),校验失败抛第一条 `ValidationError` 并退出码 1。
+
+```bash
+# 用法
+python3 scripts/scene_validate.py \
+  --input 场景语料/英语_机场过境.json \
+  --schema data/schema/scene.schema.json
+```
+
+输出:`✅ 场景语料/英语_机场过境.json 校验通过,1 个场景符合 scene.schema.json`
+
+约定 scene JSON 结构(单文件 1 个场景,无 .md 源):
+
+```json
+{
+  "name": "机场过境",
+  "language": "en",
+  "category": "travel",
+  "difficulty": 2,
+  "description": "...",
+  "key_phrases": [{"phrase": "...", "translation_cn": "...", "pronunciation": "...", "note": "..."}],
+  "dialog_template": [{"role": "user|ai|narrator|other", "text": "...", "translation_cn": "..."}],
+  "variants": ["..."],
+  "culture_notes": "...",
+  "tags": ["travel", "airport", "d2"]
+}
 ```
 
 ### root_md_to_json.py

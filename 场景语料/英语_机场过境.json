@@ -1,0 +1,133 @@
+{
+  "name": "机场过境",
+  "language": "en",
+  "category": "travel",
+  "difficulty": 2,
+  "description": "出境旅行首关——国际航班落地后,过境/转机/入关全流程。覆盖护照检查、行李提取、海关申报、转机问路 4 段典型对话;适用人群:首次出境/英语口语薄弱的旅行者。目标产出:能独立完成入境 + 转机 + 行李问询,不出错、不超时。",
+  "key_phrases": [
+    {
+      "phrase": "Here is my passport and boarding pass.",
+      "translation_cn": "这是我的护照和登机牌。",
+      "pronunciation": "/hɪər ɪz maɪ ˈpɑːspɔːrt ænd ˈbɔːrdɪŋ pæs/",
+      "note": "入境柜台第一句,把证件双手递上;boarding pass 比 ticket 更准确"
+    },
+    {
+      "phrase": "What's the purpose of your visit?",
+      "translation_cn": "您此行的目的是什么?",
+      "pronunciation": "/wɒts ðə ˈpɜːrpəs əv jɔːr ˈvɪzɪt/",
+      "note": "海关常问;sightseeing / business / visiting friends 三选一即可"
+    },
+    {
+      "phrase": "I'm here for tourism / business.",
+      "translation_cn": "我来旅游/出差。",
+      "pronunciation": "/aɪm hɪər fɔːr ˈtʊərɪzəm/",
+      "note": "回答简洁,不要展开讲故事"
+    },
+    {
+      "phrase": "How long will you be staying?",
+      "translation_cn": "您打算停留多久?",
+      "pronunciation": "/haʊ lɒŋ wɪl juː biː ˈsteɪɪŋ/",
+      "note": "答具体天数:I'll be here for five days."
+    },
+    {
+      "phrase": "I have a connecting flight to Tokyo.",
+      "translation_cn": "我要转机去东京。",
+      "pronunciation": "/aɪ hæv ə kəˈnɛktɪŋ flaɪt tuː ˈtoʊkioʊ/",
+      "note": "转机时用 connecting flight,不要用 change plane(口语化但不标准)"
+    },
+    {
+      "phrase": "Where is the baggage claim?",
+      "translation_cn": "行李提取处在哪里?",
+      "pronunciation": "/wɛər ɪz ðə ˈbæɡɪdʒ kleɪm/",
+      "note": "claim = 提取,记成 claim baggage;行李盘编号 = carousel number"
+    },
+    {
+      "phrase": "My suitcase didn't come out.",
+      "translation_cn": "我的行李箱没出来。",
+      "pronunciation": "/maɪ ˈsuːtkeɪs ˈdɪdnt kʌm aʊt/",
+      "note": "行李丢失第一句;立即找 Baggage Service 柜台,报行李牌号"
+    },
+    {
+      "phrase": "Where is gate B12?",
+      "translation_cn": "B12 登机口在哪里?",
+      "pronunciation": "/wɛər ɪz ɡeɪt biː twɛlv/",
+      "note": "转机时问登机口;gate = 登机口,terminal = 航站楼,注意区分"
+    }
+  ],
+  "dialog_template": [
+    {
+      "role": "narrator",
+      "text": "(You arrive at the immigration counter after a 10-hour flight.)",
+      "translation_cn": "(经过 10 小时飞行后,你抵达入境柜台。)"
+    },
+    {
+      "role": "user",
+      "text": "Good evening. Here is my passport and boarding pass.",
+      "translation_cn": "晚上好。这是我的护照和登机牌。"
+    },
+    {
+      "role": "ai",
+      "text": "Good evening. What's the purpose of your visit?",
+      "translation_cn": "晚上好。您此行的目的是什么?"
+    },
+    {
+      "role": "user",
+      "text": "I'm here for tourism. I'll be staying for seven days.",
+      "translation_cn": "我来旅游。计划停留 7 天。"
+    },
+    {
+      "role": "ai",
+      "text": "Alright. Do you have anything to declare?",
+      "translation_cn": "好的。您有什么要申报的吗?"
+    },
+    {
+      "role": "user",
+      "text": "No, nothing to declare. Thank you.",
+      "translation_cn": "没有要申报的。谢谢。"
+    },
+    {
+      "role": "narrator",
+      "text": "(You pass immigration and head to baggage claim.)",
+      "translation_cn": "(你通过入境检查,前往行李提取处。)"
+    },
+    {
+      "role": "user",
+      "text": "Excuse me, where is the baggage claim for flight BA289?",
+      "translation_cn": "打扰一下,BA289 航班的行李提取处在哪里?"
+    },
+    {
+      "role": "ai",
+      "text": "It's carousel 5, just follow the signs.",
+      "translation_cn": "在 5 号转盘,跟着标识走就行。"
+    },
+    {
+      "role": "narrator",
+      "text": "(After picking up luggage, you need to catch a connecting flight.)",
+      "translation_cn": "(取完行李后,你需要赶转机航班。)"
+    },
+    {
+      "role": "user",
+      "text": "I have a connecting flight to Tokyo. Where is gate B12?",
+      "translation_cn": "我要转机去东京。B12 登机口在哪里?"
+    },
+    {
+      "role": "ai",
+      "text": "Take the escalator up, then turn left. B12 is at the end of the corridor.",
+      "translation_cn": "坐扶梯上去,然后左转。B12 在走廊尽头。"
+    },
+    {
+      "role": "user",
+      "text": "Thank you so much!",
+      "translation_cn": "非常感谢!"
+    }
+  ],
+  "variants": [
+    "把 \"I'm here for tourism\" 改写为 \"I'm here on business\"(出差场景)",
+    "填空:I have a ______ flight to ______.(connecting, Tokyo)",
+    "中译英:我的行李没出来。",
+    "听写练习:听 \"How long will you be staying?\" 写下来并回答",
+    "角色扮演:你是海关,要问旅客 3 个问题(目的/停留天数/申报)"
+  ],
+  "culture_notes": "## 机场文化提醒\n\n1. **排队文化**:入境柜台前一定要排队,不要插队;美国/加拿大尤其严格,违规会被请出队列。\n2. **微笑 + 眼神接触**:递证件时看着对方眼睛,微笑说 \"Good morning/evening\" — 不打招呼会被认为不礼貌。\n3. **不要开玩笑**:海关问题必须如实回答,\"I'm here for fun\" 这种玩笑话会让对方警觉,延长检查时间。\n4. **手机静音**:在移民局柜台前不要打电话或看手机,这是普遍礼仪。\n5. **小费文化**:美国机场帮忙搬行李的 porter 习惯收 $1-2/件 小费,其他国家少见。\n6. **提前 2 小时**:国际航班建议起飞前 2 小时到机场(转机至少 90 分钟),低于这个时间柜台会拒绝 check-in。",
+  "tags": ["travel", "airport", "入境", "转机", "d2", "A2-B1", "高频场景", "差旅"]
+}
