@@ -1,0 +1,148 @@
+{
+  "name": "酒店入住",
+  "language": "en",
+  "category": "travel",
+  "difficulty": 2,
+  "description": "出境旅行核心场景——酒店 check-in/check-out/退房/投诉/早餐 5 段典型对话。覆盖预订确认、房型升级、wifi 密码、早餐时间、结账方式 6 段高频交互;适用人群:首次出境/英语口语薄弱的旅行者。目标产出:能独立完成 check-in + 客房服务 + check-out,不慌不乱。",
+  "key_phrases": [
+    {
+      "phrase": "I have a reservation under the name of Zhang Yong.",
+      "translation_cn": "我有一个预订,登记名叫张勇。",
+      "pronunciation": "/aɪ hæv ə ˌrɛzərˈveɪʃən ˈʌndər ðə neɪm əv ʒɑːŋ jʊŋ/",
+      "note": "check-in 第一句;under the name of = 以...名义预订;姓氏难发音时直接拼字母"
+    },
+    {
+      "phrase": "Do you have a room with a king-size bed / twin beds?",
+      "translation_cn": "有大床房 / 双床房吗?",
+      "pronunciation": "/duː juː hæv ə ruːm wɪð ə kɪŋ saɪz bɛd/",
+      "note": "king-size = 大床;twin beds = 两张单人床;欧美酒店默认 queen-size,要求 king 需提前备注"
+    },
+    {
+      "phrase": "What time is breakfast served?",
+      "translation_cn": "早餐几点供应?",
+      "pronunciation": "/wɒt taɪm ɪz ˈbrɛkfəst sɜːrvd/",
+      "note": "通常 6:30-10:00;含早房间(breakfast included) 直接报房号即可"
+    },
+    {
+      "phrase": "Could I have the wifi password, please?",
+      "translation_cn": "请问 wifi 密码是多少?",
+      "pronunciation": "/kʊd aɪ hæv ðə ˈwaɪfaɪ ˈpɑːswɜːrd pliːz/",
+      "note": "check-in 时前台通常会主动给,如没给一定要问;酒店 wifi 比机场/咖啡厅稳定"
+    },
+    {
+      "phrase": "I'd like to check out, please.",
+      "translation_cn": "我想退房。",
+      "pronunciation": "/aɪd laɪk tə tʃɛk aʊt pliːz/",
+      "note": "check-out = 退房;express check-out = 快速退房(房卡投入箱中)"
+    },
+    {
+      "phrase": "Could I have a late check-out until 2 PM?",
+      "translation_cn": "我能否延迟到下午 2 点退房?",
+      "pronunciation": "/kʊd aɪ hæv ə leɪt tʃɛk aʊt ənˈtɪl tuː piː ɛm/",
+      "note": "默认退房 11:00 / 12:00;延长 1-2 小时通常免费,半天收半天房费"
+    },
+    {
+      "phrase": "The air conditioning in my room isn't working.",
+      "translation_cn": "我房间的空调不工作。",
+      "pronunciation": "/ðiː ɛər kənˈdɪʃənɪŋ ɪn maɪ ruːm ˈɪznt ˈwɜːrkɪŋ/",
+      "note": "投诉第一句;先描述问题,等酒店提出方案 — 不马上要求退款"
+    },
+    {
+      "phrase": "Is there a safe in the room?",
+      "translation_cn": "房间里有保险箱吗?",
+      "pronunciation": "/ɪz ðɛər ə seɪf ɪn ðə ruːm/",
+      "note": "护照/现金/信用卡入保险箱;in-room safe = 房间内保险箱,lobby safe = 前台保险箱"
+    }
+  ],
+  "dialog_template": [
+    {
+      "role": "narrator",
+      "text": "(You arrive at the hotel lobby after a long day of sightseeing.)",
+      "translation_cn": "(经过一整天观光后,你抵达酒店大堂。)"
+    },
+    {
+      "role": "user",
+      "text": "Good evening. I have a reservation under the name of Zhang Yong.",
+      "translation_cn": "晚上好。我有一个预订,登记名叫张勇。"
+    },
+    {
+      "role": "ai",
+      "text": "Welcome! Let me pull up your booking. May I see your passport and a credit card, please?",
+      "translation_cn": "欢迎光临!我查一下您的预订。请问能看一下您的护照和信用卡吗?"
+    },
+    {
+      "role": "user",
+      "text": "Sure, here you are. Could I have a room on a high floor?",
+      "translation_cn": "好的,给你。能否给我一间高楼层房间?"
+    },
+    {
+      "role": "ai",
+      "text": "Of course. You're in room 1208 on the 12th floor. Here's your key card. The wifi password is on this slip — it's hotel2026.",
+      "translation_cn": "当然可以。您住 12 楼 1208 房。这是房卡。wifi 密码在这张纸条上,是 hotel2026。"
+    },
+    {
+      "role": "user",
+      "text": "Thanks! What time is breakfast served?",
+      "translation_cn": "谢谢!早餐几点供应?"
+    },
+    {
+      "role": "ai",
+      "text": "Breakfast is from 6:30 to 10:00 AM in the restaurant on the ground floor. Your room key includes breakfast.",
+      "translation_cn": "早餐 6:30 到 10:00,在 1 楼餐厅。您的房卡含早餐。"
+    },
+    {
+      "role": "narrator",
+      "text": "(The next morning, you call the front desk about an issue.)",
+      "translation_cn": "(第二天早上,你向前台反映一个问题。)"
+    },
+    {
+      "role": "user",
+      "text": "Hi, this is room 1208. The air conditioning in my room isn't working.",
+      "translation_cn": "你好,这里是 1208 房。我房间的空调不工作。"
+    },
+    {
+      "role": "ai",
+      "text": "I'm sorry to hear that. I'll send our engineer up within 10 minutes. In the meantime, may I offer you a free drink at the lobby bar as an apology?",
+      "translation_cn": "非常抱歉。我会安排工程师 10 分钟内上来。在此期间,能否请您到大厅吧免费喝一杯作为补偿?"
+    },
+    {
+      "role": "user",
+      "text": "That would be great, thank you. Also, is there a safe in the room?",
+      "translation_cn": "那太好了,谢谢。请问房间里有保险箱吗?"
+    },
+    {
+      "role": "ai",
+      "text": "Yes, there's an in-room safe inside the wardrobe. The code is set by you — just press 0000 first, then set your own four-digit code.",
+      "translation_cn": "有的,衣柜内有一个房间保险箱。密码由您自己设置 — 先按 0000,再设置自己的 4 位数密码。"
+    },
+    {
+      "role": "narrator",
+      "text": "(On your last day, you go to the front desk to check out.)",
+      "translation_cn": "(最后一天,你到前台退房。)"
+    },
+    {
+      "role": "user",
+      "text": "Good morning. I'd like to check out, please. Could I have a late check-out until 2 PM?",
+      "translation_cn": "早上好。我想退房。能否延迟到下午 2 点退房?"
+    },
+    {
+      "role": "ai",
+      "text": "Of course, no extra charge. Here's your receipt. Would you like to settle the bill by card or cash?",
+      "translation_cn": "当然可以,不额外收费。这是您的收据。您刷卡还是付现金结账?"
+    },
+    {
+      "role": "user",
+      "text": "Card, please. Thank you for a lovely stay!",
+      "translation_cn": "刷卡吧。非常感谢,住得很愉快!"
+    }
+  ],
+  "variants": [
+    "把 \"king-size bed\" 改写为 \"twin beds\",练习双床房预定对话",
+    "填空:Breakfast is from ______ to ______ AM.(6:30 / 10:00)",
+    "中译英:我房间的空调不工作,能否派人来看一下?",
+    "听写练习:听 \"Could I have a late check-out until 2 PM?\" 写下来并自己造句",
+    "角色扮演:你是前台,要为客户办理 check-in(确认预订/收证件/给房卡/讲 wifi)"
+  ],
+  "culture_notes": "## 酒店文化提醒\n\n1. **小费文化**:美国/加拿大酒店退房时,行李员帮搬行李收 $1-2/件 小费;客房清洁员通常在枕边留 $2-5/晚;欧洲星级越高小费文化越重。\n2. **房型升级**:check-in 时客气请求 \"Could I have a room on a high floor?\" 通常免费升级;明确说 \"I'd like to upgrade to a suite\" 可能要付差价。\n3. **门栓 + deadbolt**:欧美酒店房门通常有 2 道锁 — 门栓(deadbolt) 必须上,保险系数高;出入随手反锁。\n4. **don't disturb / please clean\":门把手处有挂牌,\"请打扫\" / \"请勿打扰\" 切换 — 中文酒店少见,易忽视。\n5. **早餐含/不含**:预订时一定要确认 breakfast included 还是 not included,差价通常 $15-30/人/天。\n6. **退房时间**:默认 check-out 是 11:00 或 12:00;延 1-2 小时免费,延半天收半天房费($50-150),延整天按 1 晚房费收。\n7. **信用卡预授权**:check-in 时前台会刷信用卡做预授权(hold $100-500),不实际扣款 — 退房后 7-30 天解冻。",
+  "tags": ["travel", "hotel", "check-in", "check-out", "d2", "A2-B1", "高频场景", "差旅"]
+}
