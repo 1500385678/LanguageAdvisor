@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
-  "section_count": 5,
-  "root_count": 62,
+  "section_count": 6,
+  "root_count": 67,
   "roots": [
     {
       "root": "vid",
@@ -3809,6 +3809,299 @@
       ],
       "section": "听",
       "source_text": "古英语 hlysnan(日耳曼语族)"
+    },
+    {
+      "root": "ed",
+      "language": "la",
+      "origin": "germanic",
+      "meaning": "吃",
+      "meaning_en": "",
+      "difficulty": 1,
+      "derivatives": [
+        {
+          "word": "eat",
+          "pos": "v",
+          "meaning_cn": "吃",
+          "affix": ""
+        },
+        {
+          "word": "eaten",
+          "pos": "v",
+          "meaning_cn": "过去分词",
+          "affix": "-en 完成"
+        },
+        {
+          "word": "eats",
+          "pos": "v",
+          "meaning_cn": "单三",
+          "affix": ""
+        },
+        {
+          "word": "eating",
+          "pos": "v",
+          "meaning_cn": "现在分词",
+          "affix": "-ing 进行"
+        },
+        {
+          "word": "eater",
+          "pos": "n",
+          "meaning_cn": "食者",
+          "affix": "-er 人"
+        },
+        {
+          "word": "eatery",
+          "pos": "n",
+          "meaning_cn": "餐馆",
+          "affix": "-ery 场所"
+        }
+      ],
+      "examples": [
+        "I eat breakfast at 7",
+        "We have eaten already"
+      ],
+      "tags": [
+        "词族-吃",
+        "高考",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "吃",
+      "source_text": "古英语 etan(日耳曼语族,与德语 essen 同源)"
+    },
+    {
+      "root": "vor",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "吞 / 吃(强调吞没/贪婪)",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "voracious",
+          "pos": "adj",
+          "meaning_cn": "贪吃的",
+          "affix": "-acious 形容词 → 如 … 的"
+        },
+        {
+          "word": "voracity",
+          "pos": "n",
+          "meaning_cn": "贪食/旺盛食欲",
+          "affix": "-acity 名词"
+        },
+        {
+          "word": "devour",
+          "pos": "v",
+          "meaning_cn": "狼吞虎咽, vor 吞",
+          "affix": "de-加强"
+        },
+        {
+          "word": "devourer",
+          "pos": "n",
+          "meaning_cn": "吞食者",
+          "affix": "-er 人"
+        },
+        {
+          "word": "herbivore",
+          "pos": "n",
+          "meaning_cn": "食草动物, herbi-草",
+          "affix": "-e"
+        },
+        {
+          "word": "carnivore",
+          "pos": "n",
+          "meaning_cn": "食肉动物, carni-肉",
+          "affix": "-e"
+        },
+        {
+          "word": "omnivore",
+          "pos": "n",
+          "meaning_cn": "杂食动物, omni-全",
+          "affix": "-e"
+        },
+        {
+          "word": "voracious",
+          "pos": "adj",
+          "meaning_cn": "贪婪的",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "He devoured the book",
+        "Voracious reader"
+      ],
+      "tags": [
+        "词族-吃",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "吃",
+      "source_text": "拉丁 vorare(吞食)"
+    },
+    {
+      "root": "phag",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "吃(生物学/医学)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "phagocyte",
+          "pos": "n",
+          "meaning_cn": "吞噬细胞",
+          "affix": "-cyte 细胞"
+        },
+        {
+          "word": "phagocytosis",
+          "pos": "n",
+          "meaning_cn": "吞噬作用",
+          "affix": "-osis 状态"
+        },
+        {
+          "word": "phagomania",
+          "pos": "n",
+          "meaning_cn": "贪食症",
+          "affix": "-mania 狂热"
+        },
+        {
+          "word": "anthropophagy",
+          "pos": "n",
+          "meaning_cn": "食人, anthropo-人",
+          "affix": "-y 名词"
+        },
+        {
+          "word": "sarcophagy",
+          "pos": "n",
+          "meaning_cn": "食肉",
+          "affix": "-y 名词"
+        },
+        {
+          "word": "esophagus",
+          "pos": "n",
+          "meaning_cn": "食道, eso-入内",
+          "affix": "-us 名词"
+        }
+      ],
+      "examples": [
+        "Phagocytes engulf bacteria",
+        "The esophagus connects throat to stomach"
+      ],
+      "tags": [
+        "词族-吃",
+        "雅思",
+        "托福",
+        "GRE",
+        "医学"
+      ],
+      "section": "吃",
+      "source_text": "希腊 φαγεῖν(phagein, 吃)"
+    },
+    {
+      "root": "aliment",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "食物 / 滋养",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "aliment",
+          "pos": "n",
+          "meaning_cn": "食物/养料",
+          "affix": ""
+        },
+        {
+          "word": "alimentary",
+          "pos": "adj",
+          "meaning_cn": "营养的",
+          "affix": "-ary 形容词"
+        },
+        {
+          "word": "alimentation",
+          "pos": "n",
+          "meaning_cn": "营养/喂养",
+          "affix": "-ation 名词"
+        },
+        {
+          "word": "alimony",
+          "pos": "n",
+          "meaning_cn": "赡养费",
+          "affix": "-mony 名词 → 供养"
+        },
+        {
+          "word": "canal",
+          "pos": "n",
+          "meaning_cn": "消化道, canal 管道",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Good alimentation is essential",
+        "The alimentary canal digests food"
+      ],
+      "tags": [
+        "词族-吃",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "吃",
+      "source_text": "拉丁 alimentum(alere 滋养, 食物)"
+    },
+    {
+      "root": "orex",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "食欲 / 渴望",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "anorexia",
+          "pos": "n",
+          "meaning_cn": "厌食症, an-无",
+          "affix": "-orexia 食欲"
+        },
+        {
+          "word": "nervosa",
+          "pos": "",
+          "meaning_cn": "神经性厌食, nervosa 神经的",
+          "affix": ""
+        },
+        {
+          "word": "bulimia",
+          "pos": "n",
+          "meaning_cn": "贪食症, bou-牛",
+          "affix": "limos 饥饿 → 牛一样饿"
+        },
+        {
+          "word": "hyperorexia",
+          "pos": "n",
+          "meaning_cn": "食欲过盛, hyper-过",
+          "affix": "-orexia 食欲"
+        },
+        {
+          "word": "orexigenic",
+          "pos": "adj",
+          "meaning_cn": "促食欲的",
+          "affix": "-genic 产生的"
+        }
+      ],
+      "examples": [
+        "Anorexia is a serious disorder",
+        "Orexigenic drugs stimulate appetite"
+      ],
+      "tags": [
+        "词族-吃",
+        "雅思",
+        "托福",
+        "GRE",
+        "医学"
+      ],
+      "section": "吃",
+      "source_text": "希腊 ὄρεξις(orexis, 食欲)"
     }
   ]
 }
