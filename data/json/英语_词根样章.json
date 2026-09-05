@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
-  "section_count": 8,
-  "root_count": 77,
+  "section_count": 9,
+  "root_count": 81,
   "roots": [
     {
       "root": "vid",
@@ -4773,6 +4773,307 @@
       ],
       "section": "做",
       "source_text": "希腊 ἔργον(ergon, 工作/能量)"
+    },
+    {
+      "root": "give",
+      "language": "la",
+      "origin": "germanic",
+      "meaning": "给",
+      "meaning_en": "",
+      "difficulty": 1,
+      "derivatives": [
+        {
+          "word": "give",
+          "pos": "v",
+          "meaning_cn": "给",
+          "affix": ""
+        },
+        {
+          "word": "gives",
+          "pos": "v",
+          "meaning_cn": "单三",
+          "affix": ""
+        },
+        {
+          "word": "gave",
+          "pos": "",
+          "meaning_cn": "过去式",
+          "affix": ""
+        },
+        {
+          "word": "given",
+          "pos": "v",
+          "meaning_cn": "过去分词",
+          "affix": ""
+        },
+        {
+          "word": "giving",
+          "pos": "v",
+          "meaning_cn": "现在分词",
+          "affix": "-ing 进行"
+        },
+        {
+          "word": "giver",
+          "pos": "n",
+          "meaning_cn": "给予者",
+          "affix": "-er 人"
+        },
+        {
+          "word": "forgive",
+          "pos": "v",
+          "meaning_cn": "原谅",
+          "affix": "for-前 + give → 给出 → 既往不咎"
+        },
+        {
+          "word": "giveaway",
+          "pos": "n",
+          "meaning_cn": "赠品/泄露, away 出去",
+          "affix": ""
+        },
+        {
+          "word": "take",
+          "pos": "n",
+          "meaning_cn": "互让, 互给互取",
+          "affix": ""
+        },
+        {
+          "word": "giveup",
+          "pos": "n",
+          "meaning_cn": "放弃, up 上去",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Please give me a hand",
+        "I forgive you"
+      ],
+      "tags": [
+        "词族-给",
+        "高考",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "给",
+      "source_text": "古英语 giefan(日耳曼语族,与德语 geben 同源)"
+    },
+    {
+      "root": "don",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "给(强调赠予/授予)",
+      "meaning_en": "",
+      "difficulty": 2,
+      "derivatives": [
+        {
+          "word": "donate",
+          "pos": "v",
+          "meaning_cn": "捐赠, don + ate 动词",
+          "affix": ""
+        },
+        {
+          "word": "donation",
+          "pos": "n",
+          "meaning_cn": "捐赠/捐款",
+          "affix": "-ion 名词"
+        },
+        {
+          "word": "donor",
+          "pos": "n",
+          "meaning_cn": "捐赠者",
+          "affix": "-or 人"
+        },
+        {
+          "word": "donatee",
+          "pos": "n",
+          "meaning_cn": "受赠人",
+          "affix": "-ee 被…的人"
+        },
+        {
+          "word": "pardon",
+          "pos": "v",
+          "meaning_cn": "原谅/赦免",
+          "affix": "par-完全 + don → 全部给出去 → 免除罪责"
+        },
+        {
+          "word": "pardonable",
+          "pos": "adj",
+          "meaning_cn": "可原谅的",
+          "affix": "-able 形容词"
+        },
+        {
+          "word": "condone",
+          "pos": "v",
+          "meaning_cn": "宽恕/纵容",
+          "affix": "con-共 + don + e → 一起给过 → 不追究"
+        },
+        {
+          "word": "donee",
+          "pos": "n",
+          "meaning_cn": "受赠人",
+          "affix": "don + ee → 给到的人"
+        }
+      ],
+      "examples": [
+        "She donated blood to the hospital",
+        "Pardon my interruption"
+      ],
+      "tags": [
+        "词族-给",
+        "高考",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "给",
+      "source_text": "拉丁 donare(给 / 赠予)"
+    },
+    {
+      "root": "dat",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "给(强调主动给与 / 给出之物)",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "date",
+          "pos": "n",
+          "meaning_cn": "日期 / v 约会",
+          "affix": "datum → 给出之物 → \"今天给出的\" 这一天"
+        },
+        {
+          "word": "data",
+          "pos": "n",
+          "meaning_cn": "数据",
+          "affix": "datum 复数 → 给出之物 → 已知条件"
+        },
+        {
+          "word": "datum",
+          "pos": "n",
+          "meaning_cn": "数据/基点, 直接保留单数",
+          "affix": ""
+        },
+        {
+          "word": "mandate",
+          "pos": "n",
+          "meaning_cn": "授权/命令",
+          "affix": "mand-手 + ate → 交付到手里 → 命令"
+        },
+        {
+          "word": "dative",
+          "pos": "n",
+          "meaning_cn": "与格",
+          "affix": "-ive 名词 → \"给与的\"语法格"
+        },
+        {
+          "word": "update",
+          "pos": "v",
+          "meaning_cn": "更新",
+          "affix": "up 上去 + date → 把日期给到今天"
+        },
+        {
+          "word": "outdated",
+          "pos": "adj",
+          "meaning_cn": "过时的",
+          "affix": "out 出 + dated → 给到外面的日期"
+        },
+        {
+          "word": "mandatee",
+          "pos": "n",
+          "meaning_cn": "被授权人",
+          "affix": "-ee 被…的人"
+        }
+      ],
+      "examples": [
+        "The data is updated daily",
+        "He has a mandate from the board"
+      ],
+      "tags": [
+        "词族-给",
+        "四级",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "给",
+      "source_text": "拉丁 dare(给与 / 给予)"
+    },
+    {
+      "root": "trad",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "给(强调跨时空传递 / 交付)",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "trade",
+          "pos": "",
+          "meaning_cn": "n/v 贸易 / 交易",
+          "affix": "trans-跨 + dare 简化"
+        },
+        {
+          "word": "trader",
+          "pos": "n",
+          "meaning_cn": "商人/交易者",
+          "affix": "-er 人"
+        },
+        {
+          "word": "tradition",
+          "pos": "n",
+          "meaning_cn": "传统/传承",
+          "affix": "trad + ition → 跨代传递下来的"
+        },
+        {
+          "word": "traditional",
+          "pos": "adj",
+          "meaning_cn": "传统的",
+          "affix": "-al 形容词"
+        },
+        {
+          "word": "traditionalist",
+          "pos": "n",
+          "meaning_cn": "传统主义者",
+          "affix": "-alist 人"
+        },
+        {
+          "word": "betray",
+          "pos": "v",
+          "meaning_cn": "背叛",
+          "affix": "be-使 + tray ← tradere 简化 → 把…交出去"
+        },
+        {
+          "word": "betrayal",
+          "pos": "n",
+          "meaning_cn": "背叛/辜负",
+          "affix": "-al 名词"
+        },
+        {
+          "word": "extradition",
+          "pos": "n",
+          "meaning_cn": "引渡",
+          "affix": "ex-出 + trad + ition → 把人交出去"
+        },
+        {
+          "word": "traitor",
+          "pos": "n",
+          "meaning_cn": "叛徒",
+          "affix": "trad + itor → 把信任交出去的人"
+        }
+      ],
+      "examples": [
+        "Cultural traditions are passed down",
+        "He betrayed my trust"
+      ],
+      "tags": [
+        "词族-给",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "给",
+      "source_text": "拉丁 tradere(交付 / 传递, trans-跨 + dare 给予 → 跨着给出去)"
     }
   ]
 }
