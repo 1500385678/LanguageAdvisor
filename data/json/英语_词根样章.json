@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
-  "section_count": 9,
-  "root_count": 81,
+  "section_count": 10,
+  "root_count": 85,
   "roots": [
     {
       "root": "vid",
@@ -5074,6 +5074,328 @@
       ],
       "section": "给",
       "source_text": "拉丁 tradere(交付 / 传递, trans-跨 + dare 给予 → 跨着给出去)"
+    },
+    {
+      "root": "take",
+      "language": "la",
+      "origin": "germanic",
+      "meaning": "拿(强调用手拿取 / 带走)",
+      "meaning_en": "",
+      "difficulty": 1,
+      "derivatives": [
+        {
+          "word": "take",
+          "pos": "v",
+          "meaning_cn": "拿 / 取 / 接受, 核心动词",
+          "affix": ""
+        },
+        {
+          "word": "take",
+          "pos": "v",
+          "meaning_cn": "花费时间",
+          "affix": ""
+        },
+        {
+          "word": "take",
+          "pos": "v",
+          "meaning_cn": "理解 / 领会",
+          "affix": ""
+        },
+        {
+          "word": "takeaway",
+          "pos": "n",
+          "meaning_cn": "外卖 / 重点, away 出去",
+          "affix": ""
+        },
+        {
+          "word": "taken",
+          "pos": "v",
+          "meaning_cn": "过去分词 / 着迷的",
+          "affix": ""
+        },
+        {
+          "word": "overtake",
+          "pos": "v",
+          "meaning_cn": "超过 / 压倒, over 上",
+          "affix": ""
+        },
+        {
+          "word": "undertake",
+          "pos": "v",
+          "meaning_cn": "承担 / 承诺, under 下",
+          "affix": ""
+        },
+        {
+          "word": "mistake",
+          "pos": "n",
+          "meaning_cn": "错误",
+          "affix": "mis-错 + take → 拿错"
+        },
+        {
+          "word": "retake",
+          "pos": "v",
+          "meaning_cn": "夺回 / 重考",
+          "affix": "re-再"
+        },
+        {
+          "word": "intake",
+          "pos": "n",
+          "meaning_cn": "摄入 / 入口, in 入",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Take a seat, please",
+        "I take your point"
+      ],
+      "tags": [
+        "词族-拿",
+        "高考",
+        "四级",
+        "雅思"
+      ],
+      "section": "拿",
+      "source_text": "古英语 tacan(拿 / 取)"
+    },
+    {
+      "root": "cept",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "拿(强调获取 / 接受)",
+      "meaning_en": "",
+      "difficulty": 2,
+      "derivatives": [
+        {
+          "word": "accept",
+          "pos": "v",
+          "meaning_cn": "接受",
+          "affix": "ac-向 + cept → 拿到手里"
+        },
+        {
+          "word": "accept",
+          "pos": "n",
+          "meaning_cn": "接受 / 认可",
+          "affix": ""
+        },
+        {
+          "word": "except",
+          "pos": "prep",
+          "meaning_cn": "除…之外",
+          "affix": "ex-外 + cept → 拿出 / 排除"
+        },
+        {
+          "word": "concept",
+          "pos": "n",
+          "meaning_cn": "概念",
+          "affix": "con-共 + cept → 一起拿 → 大家共同拿的观念"
+        },
+        {
+          "word": "conception",
+          "pos": "n",
+          "meaning_cn": "概念 / 构思",
+          "affix": "-ion 名词"
+        },
+        {
+          "word": "intercept",
+          "pos": "v",
+          "meaning_cn": "拦截 / 截听",
+          "affix": "inter-中间 + cept → 在中间拿"
+        },
+        {
+          "word": "reception",
+          "pos": "n",
+          "meaning_cn": "接待 / 接收",
+          "affix": "re-回 + cept + ion → 拿回"
+        },
+        {
+          "word": "recipient",
+          "pos": "n",
+          "meaning_cn": "接受者",
+          "affix": "-i- + ent 人"
+        },
+        {
+          "word": "susceptible",
+          "pos": "adj",
+          "meaning_cn": "易感的",
+          "affix": "sus-下 + cept + ible → 拿得下的"
+        },
+        {
+          "word": "inception",
+          "pos": "n",
+          "meaning_cn": "起始",
+          "affix": "in-入 + cept + ion → 拿进来"
+        }
+      ],
+      "examples": [
+        "I accept your apology",
+        "The concept is hard to grasp"
+      ],
+      "tags": [
+        "词族-拿",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "拿",
+      "source_text": "拉丁 capere(取 / 拿)"
+    },
+    {
+      "root": "prehend",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "拿(强调抓取 / 掌握)",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "comprehend",
+          "pos": "v",
+          "meaning_cn": "理解 / 包含",
+          "affix": "com-完全 + prehend → 完全拿住 → 掌握"
+        },
+        {
+          "word": "comprehension",
+          "pos": "n",
+          "meaning_cn": "理解力",
+          "affix": "-ion 名词"
+        },
+        {
+          "word": "comprehensive",
+          "pos": "adj",
+          "meaning_cn": "综合的 / 全面的",
+          "affix": "-ive 形容词"
+        },
+        {
+          "word": "apprehend",
+          "pos": "v",
+          "meaning_cn": "逮捕 / 理解",
+          "affix": "ap-向 + prehend → 拿到手"
+        },
+        {
+          "word": "apprehension",
+          "pos": "n",
+          "meaning_cn": "忧虑 / 理解",
+          "affix": "-ion 名词"
+        },
+        {
+          "word": "apprehensive",
+          "pos": "adj",
+          "meaning_cn": "忧虑的, ap-向 + prehensive",
+          "affix": ""
+        },
+        {
+          "word": "misapprehend",
+          "pos": "v",
+          "meaning_cn": "误解",
+          "affix": "mis-错"
+        },
+        {
+          "word": "reprehend",
+          "pos": "v",
+          "meaning_cn": "斥责",
+          "affix": "re-回 + prehend → 拿回来算账"
+        },
+        {
+          "word": "reprehensible",
+          "pos": "adj",
+          "meaning_cn": "应受谴责的",
+          "affix": "-ible 形容词"
+        }
+      ],
+      "examples": [
+        "I can't comprehend why he did it",
+        "She was apprehensive about the result"
+      ],
+      "tags": [
+        "词族-拿",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "拿",
+      "source_text": "拉丁 prehendere(抓住 / 拿住, pre-前 + hendere 抓)"
+    },
+    {
+      "root": "capt",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "拿(强调捕获 / 占据)",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "capture",
+          "pos": "",
+          "meaning_cn": "v/n 捕获 / 夺取, capt + ure",
+          "affix": ""
+        },
+        {
+          "word": "captive",
+          "pos": "n",
+          "meaning_cn": "俘虏 / adj 被俘的, capt + ive",
+          "affix": ""
+        },
+        {
+          "word": "captivate",
+          "pos": "v",
+          "meaning_cn": "迷住",
+          "affix": "capt + ivate → 把人拿住 → 吸引"
+        },
+        {
+          "word": "captivity",
+          "pos": "n",
+          "meaning_cn": "囚禁, capt + ivity",
+          "affix": ""
+        },
+        {
+          "word": "caption",
+          "pos": "n",
+          "meaning_cn": "标题 / 字幕",
+          "affix": "capt + ion → \"抓取\"内容文字"
+        },
+        {
+          "word": "capture",
+          "pos": "n",
+          "meaning_cn": "战利品",
+          "affix": ""
+        },
+        {
+          "word": "decapt",
+          "pos": "",
+          "meaning_cn": "罕见",
+          "affix": ""
+        },
+        {
+          "word": "recapture",
+          "pos": "v",
+          "meaning_cn": "夺回 / 回忆",
+          "affix": "re-再 + capture"
+        },
+        {
+          "word": "encapsulate",
+          "pos": "v",
+          "meaning_cn": "压缩 / 封装",
+          "affix": "en-入 + capsul + ate → 包到囊里 → 拿住"
+        },
+        {
+          "word": "incapable",
+          "pos": "adj",
+          "meaning_cn": "无能力的",
+          "affix": "in-否定 + capable → 能拿的"
+        }
+      ],
+      "examples": [
+        "The spy was captured and held in captivity",
+        "Her speech captivated the audience"
+      ],
+      "tags": [
+        "词族-拿",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "拿",
+      "source_text": "拉丁 capere 异形(抓 / 拿 / 取)"
     }
   ]
 }
