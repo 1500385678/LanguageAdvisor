@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
-  "section_count": 10,
-  "root_count": 85,
+  "section_count": 11,
+  "root_count": 90,
   "roots": [
     {
       "root": "vid",
@@ -5396,6 +5396,413 @@
       ],
       "section": "拿",
       "source_text": "拉丁 capere 异形(抓 / 拿 / 取)"
+    },
+    {
+      "root": "buy",
+      "language": "la",
+      "origin": "germanic",
+      "meaning": "买",
+      "meaning_en": "",
+      "difficulty": 1,
+      "derivatives": [
+        {
+          "word": "buy",
+          "pos": "v",
+          "meaning_cn": "买",
+          "affix": ""
+        },
+        {
+          "word": "buys",
+          "pos": "v",
+          "meaning_cn": "单三",
+          "affix": ""
+        },
+        {
+          "word": "bought",
+          "pos": "",
+          "meaning_cn": "过去式/过去分词",
+          "affix": ""
+        },
+        {
+          "word": "buyer",
+          "pos": "n",
+          "meaning_cn": "买主",
+          "affix": "-er 人"
+        },
+        {
+          "word": "buying",
+          "pos": "v",
+          "meaning_cn": "现在分词",
+          "affix": "-ing 进行"
+        },
+        {
+          "word": "buyback",
+          "pos": "n",
+          "meaning_cn": "回购, back 回",
+          "affix": ""
+        },
+        {
+          "word": "buyout",
+          "pos": "n",
+          "meaning_cn": "收购, out 出",
+          "affix": ""
+        },
+        {
+          "word": "bargain",
+          "pos": "",
+          "meaning_cn": "v/n 讨价还价",
+          "affix": "bar-交易 + gain 获得 → 廉价买到"
+        },
+        {
+          "word": "buyer",
+          "pos": "n",
+          "meaning_cn": "购买者",
+          "affix": ""
+        },
+        {
+          "word": "buying",
+          "pos": "n",
+          "meaning_cn": "购买",
+          "affix": "-ing 名词"
+        }
+      ],
+      "examples": [
+        "I'll buy it",
+        "He bought a new car"
+      ],
+      "tags": [
+        "词族-买",
+        "高考",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "买",
+      "source_text": "古英语 bycgan(买 / 购买)"
+    },
+    {
+      "root": "empt",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "买(强调获取)",
+      "meaning_en": "",
+      "difficulty": 2,
+      "derivatives": [
+        {
+          "word": "redeem",
+          "pos": "v",
+          "meaning_cn": "赎回",
+          "affix": "re-回 + em → 买回"
+        },
+        {
+          "word": "exempt",
+          "pos": "adj",
+          "meaning_cn": "免除的",
+          "affix": "ex-外 + empt → 买出来 → 拿出 → 免除"
+        },
+        {
+          "word": "preempt",
+          "pos": "v",
+          "meaning_cn": "先发制人",
+          "affix": "pre-前 + empt → 先买"
+        },
+        {
+          "word": "prompt",
+          "pos": "adj",
+          "meaning_cn": "迅速的",
+          "affix": "pro-前 + empt → 立即去买 → 立刻"
+        },
+        {
+          "word": "redemption",
+          "pos": "n",
+          "meaning_cn": "赎回",
+          "affix": "-ion 名词"
+        },
+        {
+          "word": "exemplary",
+          "pos": "adj",
+          "meaning_cn": "模范的",
+          "affix": "ex-外 + em + pl + ary → 拿出来作样 → 典范"
+        },
+        {
+          "word": "preemptive",
+          "pos": "adj",
+          "meaning_cn": "先发制人的",
+          "affix": "-ive 形容词"
+        },
+        {
+          "word": "example",
+          "pos": "n",
+          "meaning_cn": "例子",
+          "affix": "ex-外 + ample ← emere 买 → 拿出来 → 样品"
+        },
+        {
+          "word": "sample",
+          "pos": "n",
+          "meaning_cn": "样品",
+          "affix": "-ample 同源"
+        },
+        {
+          "word": "assume",
+          "pos": "v",
+          "meaning_cn": "假定",
+          "affix": "as-向 + sume ← emere → 拿到手里 → 据为己有"
+        }
+      ],
+      "examples": [
+        "He redeemed his watch from the pawnshop",
+        "She is exempt from the exam"
+      ],
+      "tags": [
+        "词族-买",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "买",
+      "source_text": "拉丁 emere(买 / 取得)"
+    },
+    {
+      "root": "purch",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "买(强调购买行为)",
+      "meaning_en": "",
+      "difficulty": 3,
+      "derivatives": [
+        {
+          "word": "purchase",
+          "pos": "",
+          "meaning_cn": "v/n 购买, purch + ase",
+          "affix": ""
+        },
+        {
+          "word": "purchaser",
+          "pos": "n",
+          "meaning_cn": "购买人",
+          "affix": "-er 人"
+        },
+        {
+          "word": "purchasing",
+          "pos": "n",
+          "meaning_cn": "采购",
+          "affix": "-ing 名词"
+        },
+        {
+          "word": "purchasable",
+          "pos": "adj",
+          "meaning_cn": "可购买的",
+          "affix": "-able"
+        },
+        {
+          "word": "order",
+          "pos": "n",
+          "meaning_cn": "采购订单",
+          "affix": ""
+        },
+        {
+          "word": "repurchase",
+          "pos": "v",
+          "meaning_cn": "再购买",
+          "affix": "re-再"
+        },
+        {
+          "word": "prepurchase",
+          "pos": "v",
+          "meaning_cn": "预购",
+          "affix": "pre-前"
+        },
+        {
+          "word": "purchaser",
+          "pos": "n",
+          "meaning_cn": "买方",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "We purchased a new house",
+        "The purchaser signed the contract"
+      ],
+      "tags": [
+        "词族-买",
+        "四级",
+        "雅思",
+        "托福"
+      ],
+      "section": "买",
+      "source_text": "古法 purchacier(追 / 寻求, 12 世纪借入英语)"
+    },
+    {
+      "root": "price",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "价(强调价格 / 价值评估)",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "price",
+          "pos": "",
+          "meaning_cn": "n/v 价格, 直接保留",
+          "affix": ""
+        },
+        {
+          "word": "pricey",
+          "pos": "adj",
+          "meaning_cn": "昂贵的",
+          "affix": "-y 形容词"
+        },
+        {
+          "word": "priceless",
+          "pos": "adj",
+          "meaning_cn": "无价的",
+          "affix": "-less 否定"
+        },
+        {
+          "word": "tag",
+          "pos": "n",
+          "meaning_cn": "价签",
+          "affix": ""
+        },
+        {
+          "word": "appraise",
+          "pos": "v",
+          "meaning_cn": "评估",
+          "affix": "ap-向 + praise ← pretium 价 → 估出价"
+        },
+        {
+          "word": "appraisal",
+          "pos": "n",
+          "meaning_cn": "评估",
+          "affix": "-al 名词"
+        },
+        {
+          "word": "appreciate",
+          "pos": "v",
+          "meaning_cn": "欣赏 / 感激 / 增值",
+          "affix": "ap-向 + preci ← pretium + ate → 估出价值"
+        },
+        {
+          "word": "appreciation",
+          "pos": "n",
+          "meaning_cn": "欣赏",
+          "affix": "-ion"
+        },
+        {
+          "word": "precious",
+          "pos": "adj",
+          "meaning_cn": "珍贵的, preci + ous",
+          "affix": ""
+        },
+        {
+          "word": "praise",
+          "pos": "",
+          "meaning_cn": "n/v 赞扬",
+          "affix": "prais ← pretium → 估出价值 → 高度评价"
+        }
+      ],
+      "examples": [
+        "The price is too high",
+        "I appreciate your help"
+      ],
+      "tags": [
+        "词族-买",
+        "高考",
+        "四级",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "买",
+      "source_text": "拉丁 pretium(价 / 价值, 与 emere 异形 → 买而得的代价)"
+    },
+    {
+      "root": "vend",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "卖(强调销售 / 贩卖)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "vend",
+          "pos": "v",
+          "meaning_cn": "贩卖, 直接保留",
+          "affix": ""
+        },
+        {
+          "word": "vendor",
+          "pos": "n",
+          "meaning_cn": "小贩",
+          "affix": "-or 人"
+        },
+        {
+          "word": "vending",
+          "pos": "n",
+          "meaning_cn": "售卖",
+          "affix": "-ing 名词"
+        },
+        {
+          "word": "machine",
+          "pos": "n",
+          "meaning_cn": "自动售货机",
+          "affix": ""
+        },
+        {
+          "word": "vendetta",
+          "pos": "n",
+          "meaning_cn": "血仇",
+          "affix": "vend + etta → 报复出卖"
+        },
+        {
+          "word": "revenue",
+          "pos": "n",
+          "meaning_cn": "税收",
+          "affix": "re-回 + venue ← vendere → 卖回来的钱"
+        },
+        {
+          "word": "avenue",
+          "pos": "n",
+          "meaning_cn": "大街",
+          "affix": "a-向 + venue → 商贩聚集的街"
+        },
+        {
+          "word": "intervene",
+          "pos": "v",
+          "meaning_cn": "干预",
+          "affix": "inter-中间 + vene → 在中间售卖 → 介入"
+        },
+        {
+          "word": "convene",
+          "pos": "v",
+          "meaning_cn": "召集",
+          "affix": "con-共 + vene → 来到一起 → 召集"
+        },
+        {
+          "word": "convention",
+          "pos": "n",
+          "meaning_cn": "大会",
+          "affix": "-tion 名词"
+        },
+        {
+          "word": "convenient",
+          "pos": "adj",
+          "meaning_cn": "方便的",
+          "affix": "con-共 + veni + ent → 来到一起的 → 顺便的"
+        }
+      ],
+      "examples": [
+        "The vendor sells fruits",
+        "The street vendors are everywhere"
+      ],
+      "tags": [
+        "词族-买",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "买",
+      "source_text": "拉丁 vendere(卖 / 出售, ven- 来 + dere 卖, 与 emere 互为买卖)"
     }
   ]
 }
