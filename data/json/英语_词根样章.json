@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
   "section_count": 11,
-  "root_count": 90,
+  "root_count": 92,
   "roots": [
     {
       "root": "vid",
@@ -3809,6 +3809,188 @@
       ],
       "section": "听",
       "source_text": "古英语 hlysnan(日耳曼语族)"
+    },
+    {
+      "root": "son",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "声(强调物理声响 / 音频)",
+      "meaning_en": "",
+      "difficulty": 4,
+      "derivatives": [
+        {
+          "word": "son",
+          "pos": "n",
+          "meaning_cn": "儿子 / 声音, 音义借自 sonus",
+          "affix": "直接保留 → 同形异源"
+        },
+        {
+          "word": "sonata",
+          "pos": "n",
+          "meaning_cn": "奏鸣曲",
+          "affix": "son + ata → 鸣响之曲"
+        },
+        {
+          "word": "sonic",
+          "pos": "adj",
+          "meaning_cn": "声音的",
+          "affix": "-ic 形容词"
+        },
+        {
+          "word": "sonar",
+          "pos": "n",
+          "meaning_cn": "声呐",
+          "affix": "son + ar → 声波探测"
+        },
+        {
+          "word": "sonorous",
+          "pos": "adj",
+          "meaning_cn": "洪亮的",
+          "affix": "son + or + ous → 发出声响的"
+        },
+        {
+          "word": "consonant",
+          "pos": "n",
+          "meaning_cn": "辅音",
+          "affix": "con-共 + son + ant → 共同发声"
+        },
+        {
+          "word": "dissonant",
+          "pos": "adj",
+          "meaning_cn": "不和谐的",
+          "affix": "dis-不 + son + ant"
+        },
+        {
+          "word": "resonate",
+          "pos": "v",
+          "meaning_cn": "共鸣",
+          "affix": "re-回 + son + ate → 回响"
+        },
+        {
+          "word": "supersonic",
+          "pos": "adj",
+          "meaning_cn": "超音速的",
+          "affix": "super-超 + son + ic"
+        },
+        {
+          "word": "unison",
+          "pos": "n",
+          "meaning_cn": "齐奏",
+          "affix": "uni-一 + son → 同一个声音"
+        },
+        {
+          "word": "sonnet",
+          "pos": "n",
+          "meaning_cn": "十四行诗",
+          "affix": "son + net → 鸣响之诗"
+        },
+        {
+          "word": "assonance",
+          "pos": "n",
+          "meaning_cn": "半谐音, as-向 + son + ance",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "The sonata sounds sonorous",
+        "The sonar detected a supersonic object"
+      ],
+      "tags": [
+        "词族-听",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "听",
+      "source_text": "拉丁 sonus(声音 / 声响)"
+    },
+    {
+      "root": "ot",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "耳 / 听(医学/解剖)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "otic",
+          "pos": "adj",
+          "meaning_cn": "耳的, ot + ic 形容词, 来自 otos",
+          "affix": ""
+        },
+        {
+          "word": "otoscope",
+          "pos": "n",
+          "meaning_cn": "耳镜",
+          "affix": "oto + scope → 看耳的镜"
+        },
+        {
+          "word": "otology",
+          "pos": "n",
+          "meaning_cn": "耳科学",
+          "affix": "oto + logy → 耳之学"
+        },
+        {
+          "word": "otologist",
+          "pos": "n",
+          "meaning_cn": "耳科医生",
+          "affix": "-ist 人"
+        },
+        {
+          "word": "otitis",
+          "pos": "n",
+          "meaning_cn": "耳炎, ot + itis 炎症",
+          "affix": ""
+        },
+        {
+          "word": "parotitis",
+          "pos": "n",
+          "meaning_cn": "腮腺炎",
+          "affix": "par-旁 + ot + itis → 耳旁的炎症 = 腮腺炎"
+        },
+        {
+          "word": "otorrhea",
+          "pos": "n",
+          "meaning_cn": "耳漏",
+          "affix": "oto + rrhea 流 → 耳液流"
+        },
+        {
+          "word": "otoplasty",
+          "pos": "n",
+          "meaning_cn": "耳整形术, oto + plasty 成形",
+          "affix": ""
+        },
+        {
+          "word": "ototoxic",
+          "pos": "adj",
+          "meaning_cn": "耳毒性的",
+          "affix": "oto + toxic 毒 → 伤耳的"
+        },
+        {
+          "word": "otalgia",
+          "pos": "n",
+          "meaning_cn": "耳痛, ot + algia 痛",
+          "affix": ""
+        },
+        {
+          "word": "otophone",
+          "pos": "n",
+          "meaning_cn": "助听器",
+          "affix": "oto + phone 声 → 给耳以声"
+        }
+      ],
+      "examples": [
+        "The otologist used an otoscope",
+        "Otitis media is a common infection"
+      ],
+      "tags": [
+        "词族-听",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "听",
+      "source_text": "希腊 οὖς / ωτός(ous / otos, 耳)"
     },
     {
       "root": "ed",
