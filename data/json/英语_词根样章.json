@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
   "section_count": 11,
-  "root_count": 92,
+  "root_count": 95,
   "roots": [
     {
       "root": "vid",
@@ -4284,6 +4284,224 @@
       ],
       "section": "吃",
       "source_text": "希腊 ὄρεξις(orexis, 食欲)"
+    },
+    {
+      "root": "troph",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "营养 / 滋养",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "trophy",
+          "pos": "n",
+          "meaning_cn": "战利品 / 奖品, 语义漂移",
+          "affix": "trop + y → 转身逃跑的标志 → 战利品"
+        },
+        {
+          "word": "tropic",
+          "pos": "adj",
+          "meaning_cn": "热带的",
+          "affix": "trop + ic → 太阳回归的 → 热带"
+        },
+        {
+          "word": "tropical",
+          "pos": "adj",
+          "meaning_cn": "热带的",
+          "affix": "-al 形容词"
+        },
+        {
+          "word": "atrophy",
+          "pos": "",
+          "meaning_cn": "n/v 萎缩",
+          "affix": "a-无 + troph + y → 无营养"
+        },
+        {
+          "word": "dystrophy",
+          "pos": "n",
+          "meaning_cn": "营养不良, dys-不良 + troph + y",
+          "affix": ""
+        },
+        {
+          "word": "hypertrophy",
+          "pos": "n",
+          "meaning_cn": "过度生长, hyper-过 + troph + y",
+          "affix": ""
+        },
+        {
+          "word": "eutrophic",
+          "pos": "adj",
+          "meaning_cn": "营养丰富的, eu-好 + troph + ic",
+          "affix": ""
+        },
+        {
+          "word": "allotrophic",
+          "pos": "adj",
+          "meaning_cn": "异养的, allo-异 + troph + ic",
+          "affix": ""
+        },
+        {
+          "word": "autotroph",
+          "pos": "n",
+          "meaning_cn": "自养生物",
+          "affix": "auto-自 + troph → 自己喂自己"
+        },
+        {
+          "word": "heterotroph",
+          "pos": "n",
+          "meaning_cn": "异养生物, hetero-异 + troph",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Muscle atrophy from disuse",
+        "Plants are autotrophs"
+      ],
+      "tags": [
+        "词族-吃",
+        "雅思",
+        "托福",
+        "GRE",
+        "医学"
+      ],
+      "section": "吃",
+      "source_text": "希腊 τροφή(trophe, 营养 / 喂养)"
+    },
+    {
+      "root": "brom",
+      "language": "la",
+      "origin": "greek",
+      "meaning": "食物(医学/化学)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "bromatium",
+          "pos": "n",
+          "meaning_cn": "菌根",
+          "affix": "brom + atium → 菌类食物"
+        },
+        {
+          "word": "bromatology",
+          "pos": "n",
+          "meaning_cn": "食物学",
+          "affix": "brom + at + ology → 食物的研究"
+        },
+        {
+          "word": "bromate",
+          "pos": "",
+          "meaning_cn": "n/v 溴酸盐, 形近词同字母",
+          "affix": ""
+        },
+        {
+          "word": "bromeliad",
+          "pos": "n",
+          "meaning_cn": "凤梨科植物, 形近词",
+          "affix": ""
+        },
+        {
+          "word": "anaerobic",
+          "pos": "adj",
+          "meaning_cn": "厌氧的",
+          "affix": "an-无 + aer + obic → 不靠氧的"
+        },
+        {
+          "word": "aerobe",
+          "pos": "n",
+          "meaning_cn": "需氧生物",
+          "affix": "aer + obe → 靠氧的 → 间接食物代谢"
+        },
+        {
+          "word": "microbe",
+          "pos": "n",
+          "meaning_cn": "微生物",
+          "affix": "micro-小 + be ← bios 生命 → 微生物"
+        },
+        {
+          "word": "ameba",
+          "pos": "n",
+          "meaning_cn": "变形虫, a-无 + mebe ←变化",
+          "affix": ""
+        },
+        {
+          "word": "parabiosis",
+          "pos": "n",
+          "meaning_cn": "联体生活, para-旁 + biosis 生命",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Bromatology studies food composition",
+        "Aerobes need oxygen"
+      ],
+      "tags": [
+        "词族-吃",
+        "雅思",
+        "托福",
+        "GRE",
+        "医学"
+      ],
+      "section": "吃",
+      "source_text": "希腊 βρῶμα(broma, 食物)"
+    },
+    {
+      "root": "escul",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "食物(文学/古词)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "esculent",
+          "pos": "adj",
+          "meaning_cn": "可食的, escul + ent",
+          "affix": ""
+        },
+        {
+          "word": "esculenta",
+          "pos": "n",
+          "meaning_cn": "可食植物, escul + ent + a",
+          "affix": ""
+        },
+        {
+          "word": "inesculent",
+          "pos": "adj",
+          "meaning_cn": "不可食的",
+          "affix": "in-不 + esculent"
+        },
+        {
+          "word": "esculetin",
+          "pos": "n",
+          "meaning_cn": "秦皮乙素, escul + etin",
+          "affix": ""
+        },
+        {
+          "word": "esculin",
+          "pos": "n",
+          "meaning_cn": "秦皮苷, escul + in",
+          "affix": ""
+        },
+        {
+          "word": "aesculin",
+          "pos": "",
+          "meaning_cn": "同 esculin, ae + sculin",
+          "affix": ""
+        }
+      ],
+      "examples": [
+        "Esculent plants are edible",
+        "Inesculent berries are poisonous"
+      ],
+      "tags": [
+        "词族-吃",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "吃",
+      "source_text": "拉丁 esca(食物 / 饵)"
     },
     {
       "root": "pot",
