@@ -1,7 +1,7 @@
 {
   "language": "英语 词根词缀 样章",
   "section_count": 11,
-  "root_count": 95,
+  "root_count": 98,
   "roots": [
     {
       "root": "vid",
@@ -5173,6 +5173,225 @@
       ],
       "section": "做",
       "source_text": "希腊 ἔργον(ergon, 工作/能量)"
+    },
+    {
+      "root": "fac",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "做 / 造(学术/哲学)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "facile",
+          "pos": "adj",
+          "meaning_cn": "易做的",
+          "affix": "fac + ile → 容易做的"
+        },
+        {
+          "word": "facility",
+          "pos": "n",
+          "meaning_cn": "设施/便利",
+          "affix": "fac + ility → 容易做的地方"
+        },
+        {
+          "word": "facilitate",
+          "pos": "v",
+          "meaning_cn": "使便利",
+          "affix": "fac + ilitate → 使容易做"
+        },
+        {
+          "word": "facsimile",
+          "pos": "n",
+          "meaning_cn": "复本/传真",
+          "affix": "fac + simile → 做出相似"
+        },
+        {
+          "word": "factitious",
+          "pos": "adj",
+          "meaning_cn": "人为的, 非自然",
+          "affix": "fac + titious → 造出来的"
+        },
+        {
+          "word": "faction",
+          "pos": "n",
+          "meaning_cn": "派系",
+          "affix": "fac + tion → 做出来的一伙"
+        },
+        {
+          "word": "factor",
+          "pos": "n",
+          "meaning_cn": "因素",
+          "affix": "fac + tor → 起作用的东西 → 因素"
+        },
+        {
+          "word": "factory",
+          "pos": "n",
+          "meaning_cn": "工厂",
+          "affix": "fac + tory → 做出来的地方"
+        }
+      ],
+      "examples": [
+        "The new policy facilitates trade",
+        "A facsimile of the original document"
+      ],
+      "tags": [
+        "词族-做",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "做",
+      "source_text": "拉丁 facere(做/造,与 fact 词根同源异形,词干变体)"
+    },
+    {
+      "root": "feas",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "做(强调完成/可行)",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "feasible",
+          "pos": "adj",
+          "meaning_cn": "可行的",
+          "affix": "feas + ible → 能做成的"
+        },
+        {
+          "word": "feasibility",
+          "pos": "n",
+          "meaning_cn": "可行性",
+          "affix": "feas + ibility → 能做成的性质"
+        },
+        {
+          "word": "study",
+          "pos": "n",
+          "meaning_cn": "可行性研究, study 研究",
+          "affix": ""
+        },
+        {
+          "word": "analysis",
+          "pos": "n",
+          "meaning_cn": "可行性分析, analysis 分析",
+          "affix": ""
+        },
+        {
+          "word": "infeasible",
+          "pos": "adj",
+          "meaning_cn": "不可行的",
+          "affix": "in-不 + feasible"
+        },
+        {
+          "word": "defeasible",
+          "pos": "adj",
+          "meaning_cn": "可废止的",
+          "affix": "de-下 + feas + ible → 做下来可撤销"
+        },
+        {
+          "word": "malfeasance",
+          "pos": "n",
+          "meaning_cn": "渎职",
+          "affix": "mal-坏 + feas + ance → 做坏事"
+        },
+        {
+          "word": "feasor",
+          "pos": "n",
+          "meaning_cn": "行为人, 法律术语",
+          "affix": "feas + or → 做的人"
+        }
+      ],
+      "examples": [
+        "The plan is feasible",
+        "A feasibility study was conducted"
+      ],
+      "tags": [
+        "词族-做",
+        "雅思",
+        "托福",
+        "GRE",
+        "法律"
+      ],
+      "section": "做",
+      "source_text": "拉丁 facere 完成体(feas- 表示\"已做/可行\")"
+    },
+    {
+      "root": "urg",
+      "language": "la",
+      "origin": "latin",
+      "meaning": "推动 / 驱迫",
+      "meaning_en": "",
+      "difficulty": 5,
+      "derivatives": [
+        {
+          "word": "urge",
+          "pos": "v",
+          "meaning_cn": "强烈要求/驱策",
+          "affix": ""
+        },
+        {
+          "word": "urgent",
+          "pos": "adj",
+          "meaning_cn": "紧急的",
+          "affix": "urg + ent → 推着要做的"
+        },
+        {
+          "word": "urgency",
+          "pos": "n",
+          "meaning_cn": "紧急",
+          "affix": "urg + ency → 推动的状态"
+        },
+        {
+          "word": "urgently",
+          "pos": "adv",
+          "meaning_cn": "紧急地, urg + ent + ly",
+          "affix": ""
+        },
+        {
+          "word": "matter",
+          "pos": "n",
+          "meaning_cn": "紧急事项, matter 事项",
+          "affix": ""
+        },
+        {
+          "word": "for",
+          "pos": "",
+          "meaning_cn": "phr 迫切需要, for 介词",
+          "affix": ""
+        },
+        {
+          "word": "against",
+          "pos": "",
+          "meaning_cn": "phr 极力反对, against 反",
+          "affix": ""
+        },
+        {
+          "word": "urgence",
+          "pos": "n",
+          "meaning_cn": "紧急=urgency, urg + ence 法语同形",
+          "affix": ""
+        },
+        {
+          "word": "urger",
+          "pos": "n",
+          "meaning_cn": "推动者",
+          "affix": "urg + er → 驱策者"
+        }
+      ],
+      "examples": [
+        "She urged him to reconsider",
+        "It's an urgent matter"
+      ],
+      "tags": [
+        "词族-做",
+        "高考",
+        "四级",
+        "雅思",
+        "托福",
+        "GRE"
+      ],
+      "section": "做",
+      "source_text": "拉丁 urgere(推动 / 驱迫)"
     },
     {
       "root": "give",
